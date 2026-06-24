@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patrick Shema Manirumva - Full-Stack Developer</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #0d1117 0%, #161b22 100%);
+      color: #e6edf3;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .ascii-art {
+      font-family: 'Courier New', monospace;
+      font-size: 12px;
+      line-height: 1.2;
+      color: #58a6ff;
+      margin: 20px 0;
+      overflow-x: auto;
+      white-space: pre;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin: 20px 0;
+      color: #e6edf3;
+    }
+
+    .subtitle {
+      font-size: 18px;
+      color: #79c0ff;
+      margin-bottom: 20px;
+    }
+
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin: 20px 0;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 8px 15px;
+      background: #30363d;
+      border-radius: 4px;
+      text-decoration: none;
+      color: #58a6ff;
+      font-size: 13px;
+      border: 1px solid #444c56;
+      transition: all 0.3s;
+    }
+
+    .badge:hover {
+      background: #3d444d;
+      border-color: #58a6ff;
+      transform: translateY(-2px);
+    }
+
+    .section {
+      margin: 40px 0;
+    }
+
+    .section h2 {
+      font-size: 22px;
+      color: #79c0ff;
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #30363d;
+      font-family: 'Courier New', monospace;
+    }
+
+    .code-block {
+      background: #161b22;
+      padding: 15px;
+      border-radius: 4px;
+      border-left: 3px solid #58a6ff;
+      font-family: 'Courier New', monospace;
+      font-size: 13px;
+      overflow-x: auto;
+      line-height: 1.5;
+    }
+
+    .tech-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 10px;
+      margin: 15px 0;
+    }
+
+    .tech-item {
+      background: #161b22;
+      padding: 10px;
+      border-radius: 4px;
+      border-left: 3px solid #58a6ff;
+      font-size: 13px;
+      text-align: center;
+    }
+
+    .tech-category {
+      margin: 20px 0;
+    }
+
+    .tech-category h3 {
+      color: #79c0ff;
+      margin: 15px 0;
+      font-size: 15px;
+    }
+
+    .about-list {
+      margin-left: 20px;
+      color: #8b949e;
+    }
+
+    .about-list li {
+      margin: 10px 0;
+      line-height: 1.8;
+    }
+
+    .social-links {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .social-link {
+      background: #30363d;
+      padding: 15px;
+      border-radius: 4px;
+      text-decoration: none;
+      color: #58a6ff;
+      transition: all 0.3s;
+      border: 1px solid #444c56;
+      text-align: center;
+      font-weight: 500;
+    }
+
+    .social-link:hover {
+      background: #58a6ff;
+      color: #0d1117;
+      transform: translateY(-3px);
+      box-shadow: 0 8px 16px rgba(88, 166, 255, 0.2);
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 60px;
+      padding-top: 20px;
+      border-top: 2px solid #30363d;
+      color: #8b949e;
+    }
+
+    .footer p {
+      margin: 8px 0;
+    }
+
+    .footer .quote {
+      font-style: italic;
+      color: #79c0ff;
+      margin-bottom: 10px;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 20px;
+      }
+
+      .ascii-art {
+        font-size: 10px;
+      }
+
+      .tech-grid {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      }
+
+      .social-links {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header Section -->
+    <div class="header">
+      <div class="ascii-art">██╗   ██╗ █████╗ ██████╗ ██╗   ██╗    ██████╗ ███████╗██╗   ██╗
+██║   ██║██╔══██╗██╔══██╗╚██╗ ██╔╝    ██╔══██╗██╔════╝██║   ██║
+██║   ██║███████║██████╔╝ ╚████╔╝     ██║  ██║█████╗  ██║   ██║
+╚██╗ ██╔╝██╔══██║██╔══██╗  ╚██╔╝      ██║  ██║██╔══╝  ╚██╗ ██╔╝
+ ╚████╔╝ ██║  ██║██║  ██║   ██║       ██████╔╝███████╗ ╚████╔╝ 
+  ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝       ╚═════╝ ╚══════╝  ╚═══╝</div>
+      
+      <h1>Patrick Shema Manirumva</h1>
+      <p class="subtitle">Full-Stack Developer from 🇷🇼 Rwanda</p>
+      
+      <div class="badges">
+        <a href="https://varydeveloper.netlify.app/" class="badge">🌐 Portfolio</a>
+        <a href="https://www.linkedin.com/in/vary-001" class="badge">💼 LinkedIn</a>
+        <a href="https://www.instagram.com/vary_dev" class="badge">📸 Instagram</a>
+        <a href="https://www.youtube.com/@vary-dev" class="badge">📺 YouTube</a>
+        <a href="https://github.com/vary-dev" class="badge">🐙 GitHub</a>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="section">
+      <h2>> whoami</h2>
+      <div class="code-block">const vary = {<br>
+&nbsp;&nbsp;name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Patrick Shema Manirumva",<br>
+&nbsp;&nbsp;handle:&nbsp;&nbsp;&nbsp;"@vary-dev",<br>
+&nbsp;&nbsp;location: "Kigali, Rwanda 🇷🇼",<br>
+&nbsp;&nbsp;role:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Full-Stack Web & Mobile Developer",<br>
+&nbsp;&nbsp;exp:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"3+ years",<br>
+&nbsp;&nbsp;focus:&nbsp;&nbsp;&nbsp;&nbsp;["Web Apps", "Mobile Apps", "AI/ML", "UI/UX", "SEO"],<br>
+&nbsp;&nbsp;fuel:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;["☕ Coffee", "🐶 A puppy", "🎧 Lo-fi beats"],<br>
+&nbsp;&nbsp;openTo:&nbsp;&nbsp;&nbsp;"Collaboration, freelance & open-source projects",<br>
+};</div>
+      <p style="margin-top: 15px; color: #8b949e;">Building interactive, SEO-optimized, and visually compelling experiences — from Rwanda, for the world.</p>
+    </div>
+
+    <!-- Tech Stack Section -->
+    <div class="section">
+      <h2>> tech-stack --list</h2>
+      
+      <div class="tech-category">
+        <h3>🧠 Languages</h3>
+        <div class="tech-grid">
+          <div class="tech-item">HTML5</div>
+          <div class="tech-item">CSS3</div>
+          <div class="tech-item">JavaScript</div>
+          <div class="tech-item">TypeScript</div>
+          <div class="tech-item">Python</div>
+        </div>
+      </div>
+
+      <div class="tech-category">
+        <h3>⚡ Frameworks & Libraries</h3>
+        <div class="tech-grid">
+          <div class="tech-item">React</div>
+          <div class="tech-item">Next.js</div>
+          <div class="tech-item">React Native</div>
+          <div class="tech-item">Flutter</div>
+          <div class="tech-item">Tailwind CSS</div>
+          <div class="tech-item">Bootstrap</div>
+          <div class="tech-item">Express.js</div>
+        </div>
+      </div>
+
+      <div class="tech-category">
+        <h3>🤖 AI · ML · Data Visualization</h3>
+        <div class="tech-grid">
+          <div class="tech-item">PyTorch</div>
+          <div class="tech-item">TensorFlow</div>
+          <div class="tech-item">Pandas</div>
+          <div class="tech-item">Matplotlib</div>
+          <div class="tech-item">Seaborn</div>
+          <div class="tech-item">Vega-Altair</div>
+        </div>
+      </div>
+
+      <div class="tech-category">
+        <h3>🗄️ Databases</h3>
+        <div class="tech-grid">
+          <div class="tech-item">MongoDB</div>
+          <div class="tech-item">MySQL</div>
+          <div class="tech-item">PostgreSQL</div>
+          <div class="tech-item">Firebase</div>
+          <div class="tech-item">Supabase</div>
+          <div class="tech-item">SQLite</div>
+        </div>
+      </div>
+
+      <div class="tech-category">
+        <h3>☁️ Cloud, DevOps & Version Control</h3>
+        <div class="tech-grid">
+          <div class="tech-item">Netlify</div>
+          <div class="tech-item">Vercel</div>
+          <div class="tech-item">AWS</div>
+          <div class="tech-item">Docker</div>
+          <div class="tech-item">Git</div>
+          <div class="tech-item">GitHub</div>
+        </div>
+      </div>
+
+      <div class="tech-category">
+        <h3>🖥️ Server Administration</h3>
+        <div class="tech-grid">
+          <div class="tech-item">Linux</div>
+          <div class="tech-item">Windows Server</div>
+          <div class="tech-item">Nginx</div>
+          <div class="tech-item">Apache</div>
+          <div class="tech-item">SSH/CLI</div>
+        </div>
+      </div>
+
+      <div class="tech-category">
+        <h3>🎨 Design Tools</h3>
+        <div class="tech-grid">
+          <div class="tech-item">Figma</div>
+          <div class="tech-item">Canva</div>
+          <div class="tech-item">Photoshop</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Verbose Section -->
+    <div class="section">
+      <h2>> about --verbose</h2>
+      <ul class="about-list">
+        <li>🏗️ Building <strong>dynamic websites, React apps, admin dashboards, and e-commerce platforms</strong></li>
+        <li>📱 Developing cross-platform <strong>mobile apps</strong> with Flutter and React Native</li>
+        <li>🤖 Actively exploring <strong>AI/ML</strong> — model training, data pipelines, and intelligent UIs</li>
+        <li>🔍 Skilled in <strong>Google SEO</strong>, Maps integration, and performance optimization</li>
+        <li>🎨 Passionate about <strong>UI/UX design</strong> and visual storytelling</li>
+        <li>🖥️ Managing <strong>Linux & Windows servers</strong>, cloud deployments, and CI/CD pipelines</li>
+        <li>🤝 Open to <strong>collaborating</strong> on real-world projects and open-source contributions</li>
+      </ul>
+    </div>
+
+    <!-- Connect Section -->
+    <div class="section">
+      <h2>> connect --social</h2>
+      <div class="social-links">
+        <a href="https://varydeveloper.netlify.app/" class="social-link">🌐 Portfolio</a>
+        <a href="https://www.linkedin.com/in/vary-001" class="social-link">💼 LinkedIn</a>
+        <a href="https://www.instagram.com/vary_dev" class="social-link">📸 Instagram</a>
+        <a href="https://www.youtube.com/@vary-dev" class="social-link">📺 YouTube</a>
+        <a href="https://github.com/vary-dev" class="social-link">🐙 GitHub</a>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="quote">"Code is just poetry with better error messages."</div>
+      <p>vary-dev · Rwanda · Full-Stack Dev · open to work</p>
+    </div>
+  </div>
+</body>
+</html>
