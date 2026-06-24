@@ -1,18 +1,18 @@
 # vary-dev
 
-## Patrick Shema Manirumva
-Full-Stack Web & App Developer from Rwanda building interactive, SEO-optimized, and visually polished web and mobile applications.
+## Manirumva Shema Patrick
+Full-Stack Web & App Developer from Rwanda building interactive, SEO-optimized, and visually stunning web and mobile applications.
 
-### About
-I create dynamic websites, React applications, admin dashboards, e-commerce platforms, and mobile apps. I enjoy combining modern UI/UX design with performance-first architecture, cloud deployment, and AI/ML tooling.
+### About Me
+I build dynamic websites, React apps, admin dashboards, e-commerce platforms, and mobile experiences. I also work with Flutter, Next.js, Firebase, AI/ML tooling, and modern cloud deployments.
 
-- 3+ years of experience in full-stack development
-- Expertise in web, mobile, and cloud technologies
-- Passionate about clean interfaces, responsive design, and optimized builds
-- Comfortable working with Linux and Windows server environments
-- Open to collaborating on real-world projects
+- 3+ years of professional development experience
+- Skilled in web, mobile, and cloud development
+- Passionate about UI/UX design, responsive builds, and SEO
+- Comfortable with Linux and Windows server management
+- Open to collaboration and new development challenges
 
-### Core Skills
+### Tech Stack
 
 #### Languages
 - HTML5
@@ -30,7 +30,7 @@ I create dynamic websites, React applications, admin dashboards, e-commerce plat
 - Express
 - Bootstrap
 
-#### AI / ML / Data Visualization
+#### AI / ML / Data
 - PyTorch
 - TensorFlow
 - Matplotlib
@@ -46,12 +46,12 @@ I create dynamic websites, React applications, admin dashboards, e-commerce plat
 - Supabase
 - SQLite
 
-#### Cloud, Hosting & DevOps
+#### Cloud & Hosting
 - Netlify
 - Vercel
 - Docker
 - AWS
-- Git / GitHub
+- GitHub
 
 #### Server Administration
 - Linux
@@ -60,22 +60,22 @@ I create dynamic websites, React applications, admin dashboards, e-commerce plat
 - Apache
 - SSH / CLI
 
-#### Design & Productivity Tools
+#### Design Tools
 - Figma
 - Canva
 - Photoshop
 
-### Featured Experience
-- Building SEO-friendly website experiences and modern web applications
-- Developing responsive mobile apps with Flutter and React Native
-- Deploying cloud-native applications and maintaining web hosting pipelines
-- Integrating AI tools, data visualization, and machine learning workflows
+### Highlights
+- Created SEO-friendly web applications and landing pages
+- Developed mobile apps with Flutter and React Native
+- Deployed production apps to cloud and hosting platforms
+- Integrated AI, data visualization, and automation workflows
 
 ### Connect
-- Website: https://varydeveloper.netlify.app/
-- GitHub: https://github.com/vary-dev
-- LinkedIn: https://www.linkedin.com/in/vary-001
-- Instagram: https://www.instagram.com/vary_dev
-- YouTube: https://www.youtube.com/@vary-dev
+- 🌐 Website: https://varydeveloper.netlify.app/
+- 💻 GitHub: https://github.com/vary-dev
+- 🔗 LinkedIn: https://www.linkedin.com/in/vary-001
+- 📸 Instagram: https://www.instagram.com/vary_dev
+- ▶️ YouTube: https://www.youtube.com/@vary-dev
 
-> I am actively looking for collaboration opportunities and new development challenges.
+> Open to work and eager to collaborate on meaningful development projects.
